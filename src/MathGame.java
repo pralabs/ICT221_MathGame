@@ -67,6 +67,12 @@ public class MathGame {
 
             // EVEN questions (2, 4, 6, 8, 10) = SUBTRACTION
             else {
+//                // swap so answer is never negative
+//                if (x < y) {
+//                    int temp = x;
+//                    x = y;
+//                    y = temp;
+//                }
                 System.out.printf("Question %d: What is %2d - %2d?%n", i + 1, x, y);
                 int response = getInt(input, "Answer: ");
 //                System.out.print("Answer: ");
